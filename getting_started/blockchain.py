@@ -9,7 +9,7 @@ previous_block = blockchain[0]
 
 ''' Number of blocks to add after the genesis block '''
 
-num_of_blocks_to_add = 13
+num_of_blocks_to_add = int(input("Enter the number of blocks to be added to blockchain"))
 
 ''' Adding the blocks to chain '''
 for i in range(0, num_of_blocks_to_add):
