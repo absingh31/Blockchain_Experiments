@@ -9,7 +9,7 @@ this_node_transactions = []
 @node.route('/txion', methods = ['POST'])
 def transactions():
 	if request.method = 'POST':
-		''' On each new post we exract the transaction data '''
+		''' On each new post we extract the transaction data '''
 		new_txion = request.get_json()
 
 		''' Now we add the transaction to our list '''
@@ -23,6 +23,6 @@ def transactions():
 
 		''' Now let the client know it worked out '''
 
-		return "Tranaaction submission successfull\n"
+		return "Transaction submission successfull\n"
 
 node.run()
