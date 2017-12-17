@@ -8,7 +8,7 @@ this_node_transactions = []
 
 @node.route('/txion', methods = ['POST'])
 def transactions():
-	if request.method = 'POST':
+	if request.method == 'POST':
 		''' On each new post we extract the transaction data '''
 		new_txion = request.get_json()
 
