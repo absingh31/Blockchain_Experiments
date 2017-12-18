@@ -68,5 +68,5 @@ def mine():
 	"timestamp": new_block_timestamp,
 	"data": new_block_data,
 	"hash": last_block_hash
-	}
+	}s
 
